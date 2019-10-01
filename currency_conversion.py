@@ -14,6 +14,6 @@ currency=pd.DataFrame(datum['rates'])
 currency=currency.T.sort_index()
 
 
-currency.insert(0,'base_currency',"INR")
+currency.insert(0,'base_currency','INR')
 
 print (currency)
